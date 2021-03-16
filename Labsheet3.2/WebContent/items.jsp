@@ -21,11 +21,7 @@ session.setAttribute("statusMsg", stsMsg1);
 }
 
 
-if(request.getParameter("btnUpdate") !=null){
-Item itemObj = new Item();
-String stsMsg3 = itemObj.updateItem(request.getParameter("itemCode"),request.getParameter("itemName"),request.getParameter("itemPrice"),request.getParameter("itemDesc"),request.getParameter("itemID"));
-session.setAttribute("statusMsg", stsMsg3);
-}
+
 %>
 <!DOCTYPE html>
 <html>
